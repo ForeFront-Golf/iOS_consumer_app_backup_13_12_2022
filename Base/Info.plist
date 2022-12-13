@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key></key>
+	<string></string>
+	<key>AWS</key>
+	<dict>
+		<key>Cognito</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>Region</key>
+				<string>us-east-1</string>
+			</dict>
+		</dict>
+		<key>CredentialsProvider</key>
+		<dict>
+			<key>CognitoIdentity</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>PoolId</key>
+					<string>us-east-1:e8fa1784-aca5-4385-a6e9-527a20028d4c</string>
+					<key>Region</key>
+					<string>us-east-1</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>IdentityManager</key>
+		<dict>
+			<key>Default</key>
+			<dict/>
+		</dict>
+		<key>MobileHub</key>
+		<dict>
+			<key>ProjectClientId</key>
+			<string>MobileHub 4793abf7-3f48-4fec-b3ff-d86b4db677da aws-my-sample-app-ios-objc-v0.17</string>
+		</dict>
+		<key>UserFileManager</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>Region</key>
+				<string>us-east-1</string>
+				<key>S3Bucket</key>
+				<string>forefront-userfiles-mobilehub-1269340312</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>ForeOrder</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>ForeOrder</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.6.15</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb613164968808382</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>2</string>
+	<key>FacebookAppID</key>
+	<string>613164968808382</string>
+	<key>FacebookDisplayName</key>
+	<string>ForeOrder</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-share-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+		<string>googlechromes</string>
+		<string>comgooglemaps</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>ForeOrder uses the camera for taking profile photos which make it easier for course staff to find and recognize you when delivering an order.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>ForeOrder utilizes background location services to create an optimal user experience.  
+
+Background location services are essential in ensuring that your position is accurate at all times while at a golf course.  This ensure that course employees know your position and can have food and beverage pick up orders ready on your arrival or so that they can deliver food and beverage orders to you in a timely fashion.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>ForeOrder utilizes background location services to create an optimal user experience.  
+
+Background location services are essential in ensuring that your position is accurate at all times while at a golf course.  This ensure that course employees know your position and can have food and beverage pick up orders ready on your arrival or so that they can deliver food and beverage orders to you in a timely fashion.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>ForeOrder utilizes background location services to create an optimal user experience.  
+
+Background location services are essential in ensuring that your position is accurate at all times while at a golf course.  This ensure that course employees know your position and can have food and beverage pick up orders ready on your arrival or so that they can deliver food and beverage orders to you in a timely fashion.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>ForeOrder uses the Photo Library for choosing profile photos which make it easier for course staff to find and recognize you when delivering an order.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Montserrat-Hairline.otf</string>
+		<string>Montserrat-Light.otf</string>
+		<string>Montserrat-Medium.otf</string>
+		<string>Montserrat-Bold.otf</string>
+	</array>
+	<key>UIAppFonts - 2</key>
+	<array>
+		<string>Montserrat-Medium.otf</string>
+		<string>Montserrat-Hairline.otf</string>
+		<string>Montserrat-Light.otf</string>
+		<string>Montserrat-Regular.otf</string>
+		<string>Montserrat-Bold.otf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>location</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchViewController</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UIStatusBarHidden~ipad</key>
+	<false/>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

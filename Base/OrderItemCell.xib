@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Bold.otf">
+            <string>Montserrat-Bold</string>
+        </array>
+        <array key="Montserrat-Medium.otf">
+            <string>Montserrat-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="OrderItemCell">
+            <rect key="frame" x="0.0" y="0.0" width="304" height="58"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="304" height="57.666666666666664"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coor Light (24oz)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="cod-ZH-rsD">
+                        <rect key="frame" x="12" y="10" width="137.66666666666666" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="bfq-Yx-xcg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="16"/>
+                        <color key="textColor" red="0.054901960780000002" green="0.15686274510000001" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8sh-mt-LQ1">
+                        <rect key="frame" x="230" y="5" width="62" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="62" id="aW8-8M-KAT"/>
+                            <constraint firstAttribute="height" constant="21" id="b8j-Px-N6X"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="14"/>
+                        <color key="textColor" red="0.054901960780000002" green="0.15686274510000001" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cans if you have them" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vAt-pZ-HXN">
+                        <rect key="frame" x="20" y="35" width="200" height="14.333333333333336"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" id="Amq-K8-bG8"/>
+                            <constraint firstAttribute="width" constant="200" id="yeG-6n-ifr"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="12"/>
+                        <color key="textColor" red="0.054901960780000002" green="0.15686274510000001" blue="0.23921568630000001" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$26.25" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="zFh-tf-bdK">
+                        <rect key="frame" x="222" y="33.666666666666664" width="70" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19" id="M9S-QZ-LxL"/>
+                            <constraint firstAttribute="width" constant="70" id="WL8-nG-Jvm"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="14"/>
+                        <color key="textColor" red="0.054901960780000002" green="0.15686274510000001" blue="0.23921568630000001" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="zFh-tf-bdK" secondAttribute="trailing" constant="12" id="25y-5E-CLx"/>
+                    <constraint firstAttribute="trailing" secondItem="8sh-mt-LQ1" secondAttribute="trailing" constant="12" id="4rV-Kz-4Fm"/>
+                    <constraint firstItem="vAt-pZ-HXN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="4" id="8nv-8Q-13X"/>
+                    <constraint firstAttribute="bottom" secondItem="zFh-tf-bdK" secondAttribute="bottom" constant="5" id="PJW-EV-rWz"/>
+                    <constraint firstItem="cod-ZH-rsD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="XJH-dg-Qpy"/>
+                    <constraint firstItem="vAt-pZ-HXN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="35" id="YIR-lW-v31"/>
+                    <constraint firstItem="zFh-tf-bdK" firstAttribute="top" relation="greaterThanOrEqual" secondItem="8sh-mt-LQ1" secondAttribute="bottom" constant="7.6699999999999999" id="bRh-hw-TJ6"/>
+                    <constraint firstItem="cod-ZH-rsD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="hTS-DC-gX8"/>
+                    <constraint firstAttribute="bottom" secondItem="vAt-pZ-HXN" secondAttribute="bottom" constant="9" id="iht-eA-dAK"/>
+                    <constraint firstItem="8sh-mt-LQ1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="l41-43-3eT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="detailsLabel" destination="vAt-pZ-HXN" id="L56-T5-Z1p"/>
+                <outlet property="nameLabel" destination="cod-ZH-rsD" id="7pN-AN-YxT"/>
+                <outlet property="priceLabel" destination="zFh-tf-bdK" id="71Q-P6-bhM"/>
+                <outlet property="quantityLabel" destination="8sh-mt-LQ1" id="DOW-s8-qf3"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
